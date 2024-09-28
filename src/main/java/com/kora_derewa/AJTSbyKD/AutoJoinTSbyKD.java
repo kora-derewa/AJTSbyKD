@@ -10,8 +10,8 @@ import net.minecraft.network.ClientConnection;
 
 public class AutoConnectMod implements ClientModInitializer {
     // Set your server's address and port here
-    private static final String SERVER_IP = "your.server.ip";
-    private static final int SERVER_PORT = 25565; // default Minecraft server port
+    private static final String SERVER_IP = "ip";
+    private static final int SERVER_PORT = port; // default Minecraft server port
 
     @Override
     public void onInitializeClient() {
