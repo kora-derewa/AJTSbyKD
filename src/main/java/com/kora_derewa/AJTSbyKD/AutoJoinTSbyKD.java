@@ -27,7 +27,6 @@ public class AutoConnectMod implements ClientModInitializer {
     }
 
     private boolean shouldAutoConnect(MinecraftClient client) {
-        // Add logic to check if auto-connect is needed (e.g., only connect once)
         return true;  // Auto-connect on every title screen display
     }
 
