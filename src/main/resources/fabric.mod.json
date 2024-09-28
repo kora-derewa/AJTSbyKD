@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "AJTSbyKD",
+  "version": "2.7.2b",
+  "name": "AJTSbyKDmod",
+  "description": "Automatically connects to a Minecraft server upon launch.",
+  "authors": ["kora_derewa & kookylive"],
+  "contact": {zwie.rf.gd/koraderewa & kookylive.ru},
+  "license": "MIT",
+  "icon": "assets/AutoJoinTSbyKD/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.autoconnect.AutoConnectMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": ">=1.20"
+  }
+}
