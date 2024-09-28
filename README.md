@@ -1,2 +1,2 @@
 # AJTSbyKD
-auto join to servere kookylive
+Mod for auto join to server for fabric
